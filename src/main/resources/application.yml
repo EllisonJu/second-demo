@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.7.16:3306/miki
+    username: root
+    password: 
+  jpa:
+    hibernate:
+#使用create会自动创建表
+#使用update会自动创建表，第二次不会删除第一次创建的表
+      ddl-auto: update 
+#在控制台可以看见sql语句      
+    show-sql: true
+  

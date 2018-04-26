@@ -1,0 +1,8 @@
+server:
+#  端口号
+  port: 8081
+girl:
+  cupSize: B
+  age: 20
+#  content: "cupSize: ${server.cupSize},age: ${server.age}"
+#  context-path: /miki
